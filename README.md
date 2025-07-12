@@ -35,6 +35,8 @@ src/
 
 ## 🚀 Getting Started
 
+### 0. Please leave a star at the repo.
+
 ### 1. Fork & Clone
 
 1. **Fork this repository** to your GitHub account
