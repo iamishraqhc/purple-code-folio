@@ -14,16 +14,21 @@ const Hero: React.FC = () => {
   return (
     <section 
       id="hero" 
-      className="min-h-screen flex items-center justify-center relative overflow-hidden"
-      style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${heroImage})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundAttachment: 'fixed'
-      }}
+      className="min-h-screen flex items-center justify-center relative overflow-hidden bg-hero-bg"
     >
-      {/* Background overlay */}
-      <div className="absolute inset-0 bg-gradient-hero opacity-90"></div>
+      {/* Background overlay with image */}
+      <div 
+        className="absolute inset-0 opacity-20"
+        style={{
+          backgroundImage: `url(${heroImage})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundAttachment: 'fixed'
+        }}
+      ></div>
+      
+      {/* Additional dark overlay */}
+      <div className="absolute inset-0 bg-gradient-hero opacity-95"></div>
       
       {/* Content */}
       <div className="relative z-10 container-width section-padding text-center text-hero-text">

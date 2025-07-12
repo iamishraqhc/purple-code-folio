@@ -9,28 +9,28 @@ const Skills: React.FC = () => {
       skills: skills.filter(skill => 
         ['JavaScript', 'TypeScript', 'React', 'Next.js', 'Vue.js', 'TailwindCSS', 'Sass'].includes(skill)
       ),
-      color: "bg-blue-500/10 text-blue-600 border-blue-500/20"
+      color: "bg-blue-500/10 text-blue-400 border-blue-500/20"
     },
     {
       title: "Backend", 
       skills: skills.filter(skill => 
         ['Node.js', 'Express.js', 'MongoDB', 'PostgreSQL', 'Firebase'].includes(skill)
       ),
-      color: "bg-green-500/10 text-green-600 border-green-500/20"
+      color: "bg-green-500/10 text-green-400 border-green-500/20"
     },
     {
       title: "Tools & DevOps",
       skills: skills.filter(skill => 
         ['Git', 'Docker', 'AWS', 'Vercel'].includes(skill)
       ),
-      color: "bg-orange-500/10 text-orange-600 border-orange-500/20"
+      color: "bg-orange-500/10 text-orange-400 border-orange-500/20"
     },
     {
       title: "Design & Testing",
       skills: skills.filter(skill => 
         ['Figma', 'Jest', 'Cypress'].includes(skill)
       ),
-      color: "bg-purple-500/10 text-purple-600 border-purple-500/20"
+      color: "bg-purple-500/10 text-purple-400 border-purple-500/20"
     }
   ];
 
